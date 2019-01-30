@@ -1,0 +1,34 @@
+{
+  "name": "newyork-coffeeshop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resetDb": "node resetDb.js",
+    "seed": "node seed.js",
+    "bootup": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliepsheppard/newyork-coffeeshop-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charliepsheppard/newyork-coffeeshop-api/issues"
+  },
+  "homepage": "https://github.com/charliepsheppard/newyork-coffeeshop-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}
